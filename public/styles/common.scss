@@ -1,0 +1,25 @@
+@font-face { 
+    font-family: KT; /*这里是说明调用来的字体名字*/ 
+    src: url('../font/Gkai00m.woff2'); /*这里是字体文件路径*/ 
+}
+
+*:not(input):not(textarea) {
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -khtml-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    // background-image: repeating-linear-gradient(to bottom, #fff, #000);
+    background: #fff;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+}
