@@ -1,6 +1,6 @@
 <template>
     <div>
-        <canvas id="mom" style="background-image: linear-gradient(#fff,#666,#000)"></canvas>
+        <canvas id="mom"></canvas>
     </div>
 </template>
 <script>
@@ -38,10 +38,10 @@ export default {
                 //fillRect() 方法绘制“已填色”的矩形。默认的填充颜色是黑色。
                 context.fillRect(0, 0, W, H);
                 //给字体设置样式
-                context.font = "700 " + fontSize + "px  微软雅黑";
+                context.font = "700 " + fontSize + "px  楷体";
                 //给字体添加颜色
                 context.fillStyle = randColor();//可以rgb,hsl, 标准色，十六进制颜色
-                context.fillStyle = "#00cc33";//可以rgb,hsl, 标准色，十六进制颜色
+                // context.fillStyle = "#00cc33";//可以rgb,hsl, 标准色，十六进制颜色
                 
                 //写入画布中
                 for (var i = 0; i < colunms; i++) {
@@ -69,5 +69,9 @@ export default {
     }
     
 }
-
 </script>
+<style lang="scss" scope>
+    #mom {
+        // background-image: linear-gradient(#fff,#666,#000);
+    }
+</style>

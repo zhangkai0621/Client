@@ -53,16 +53,16 @@ export default {
             z-index: 99;
             .headSculpture {
                 img {
-                    width: 100px;
-                    height: 100px;
+                    width: 10vw;
+                    height: 10vw;
                     border-radius: 50%;
                     box-shadow: #234b5d 5px 5px 10px;
                     margin-right: 10px;
                 }
             }
             .title {
-                font-size: 10rem;
-                text-shadow: #999 5px 5px 10px;
+                font-size: 10vw;
+                text-shadow: #3e00ff 4px 4px 10px;
             }
         }
         
