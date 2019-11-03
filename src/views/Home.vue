@@ -5,7 +5,8 @@
             <el-col class="title">Richard</el-col>
         </el-row>
         <el-row class="footer" type="flex" justify="space-around" align="middle">
-            <el-col>聊天室</el-col>
+            <el-col>
+                <router-link to="/webChat">聊天室</router-link></el-col>
             <el-col>聊天室</el-col>
             <el-col>聊天室</el-col>
         </el-row>
@@ -32,11 +33,13 @@ export default {
         window.onresize = () => {
             this.maxHeight  = window.innerHeight;
         }
+    },
+    created() {
     }
-  
+
 }
 </script>
-<style lang="scss" scope> 
+<style lang="scss" scope>
     $KT : 'KT';
     $white_color: #fff;
     .home {
